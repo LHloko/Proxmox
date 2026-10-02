@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About - My SFTP Server</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>MY SFTP SERVER</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">[ HOME ]</a>
+        <a href="files.html">[ FILES ]</a>
+        <a href="status.html">[ STATUS ]</a>
+        <a href="about.html">[ ABOUT ]</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>About This Server</h2>
+
+            <p>
+                Welcome to the administration interface of
+                My SFTP Server.
+            </p>
+
+            <p>
+                This server was built as a personal laboratory
+                for learning about Linux, networking, servers
+                and web development.
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Server Architecture</h2>
+
+            <table>
+
+                <tr>
+                    <th>Component</th>
+                    <th>Technology</th>
+                </tr>
+
+                <tr>
+                    <td>Virtualization</td>
+                    <td>Proxmox VE</td>
+                </tr>
+
+                <tr>
+                    <td>Operating System</td>
+                    <td>Linux</td>
+                </tr>
+
+                <tr>
+                    <td>File Transfer</td>
+                    <td>SFTP / SSH</td>
+                </tr>
+
+                <tr>
+                    <td>Web Server</td>
+                    <td>Nginx</td>
+                </tr>
+
+                <tr>
+                    <td>Backend</td>
+                    <td>Python</td>
+                </tr>
+
+                <tr>
+                    <td>Frontend</td>
+                    <td>HTML / CSS</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Project Structure</h2>
+
+            <pre>
++----------------------+
+|      Web Browser     |
++----------+-----------+
+           |
+           v
++----------------------+
+|        Nginx         |
++----------+-----------+
+           |
+           v
++----------------------+
+|    Python Backend    |
++----------+-----------+
+           |
+     +-----+-----+
+     |           |
+     v           v
+   Linux       SFTP
+   System      Server
+            </pre>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Project Information</h2>
+
+            <ul>
+                <li>Project: My SFTP Server</li>
+                <li>Version: 0.1</li>
+                <li>Interface: Web 1.0</li>
+                <li>Status: In Development</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Notes</h2>
+
+            <p>
+                This interface is currently running with
+                static information.
+            </p>
+
+            <p>
+                Dynamic information will be provided by the
+                Python backend in future versions.
+            </p>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            My SFTP Server v0.1
+        </p>
+
+        <p>
+            Last update: 14/09/2026
+        </p>
+    </footer>
+
+</body>
+</html>
+

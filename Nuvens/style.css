@@ -1,0 +1,317 @@
+/* =========================================
+   MY SFTP SERVER
+   Web 1.0 Interface
+   ========================================= */
+
+
+/* ---------- GLOBAL ---------- */
+
+body {
+    background-color: #c0c0c0;
+    color: #000000;
+
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* ---------- MAIN PAGE ---------- */
+
+body {
+    max-width: 900px;
+    margin: 20px auto;
+
+    border: 3px solid #000000;
+
+    background-color: #d3d3d3;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #000080;
+    color: #ffffff;
+
+    padding: 10px 15px;
+
+    border-bottom: 3px solid #000000;
+}
+
+header h1 {
+    margin: 0;
+
+    font-family: "Courier New", Courier, monospace;
+    font-size: 28px;
+
+    letter-spacing: 2px;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+    background-color: #c0c0c0;
+
+    padding: 8px;
+
+    border-bottom: 2px solid #000000;
+}
+
+nav a {
+    display: inline-block;
+
+    margin-right: 8px;
+    padding: 4px 8px;
+
+    color: #0000ee;
+    background-color: #ffffff;
+
+    border: 2px outset #ffffff;
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: #551a8b;
+}
+
+nav a:hover {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+nav a:active {
+    border-style: inset;
+}
+
+
+/* ---------- HORIZONTAL RULE ---------- */
+
+hr {
+    border: 0;
+
+    border-top: 2px solid #000000;
+
+    margin: 0;
+}
+
+
+/* ---------- MAIN ---------- */
+
+main {
+    padding: 15px;
+}
+
+
+/* ---------- SECTIONS ---------- */
+
+section {
+    margin-bottom: 15px;
+}
+
+section h2 {
+    color: #ffffff;
+    background-color: #008080;
+
+    font-size: 18px;
+
+    margin: 0 0 12px 0;
+    padding: 6px 10px;
+
+    border: 2px solid #000000;
+}
+
+
+/* ---------- SERVER STATUS ---------- */
+
+section:first-child {
+    border: 2px solid #000000;
+
+    background-color: #eeeeee;
+
+    padding: 10px;
+}
+
+section:first-child h2 {
+    margin: -10px -10px 10px -10px;
+}
+
+
+/* ONLINE STATUS */
+
+strong {
+    color: #ffffff;
+
+    background-color: #008000;
+
+    padding: 2px 6px;
+
+    border: 2px outset #ffffff;
+}
+
+
+/* ---------- LISTS ---------- */
+
+ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+/* ---------- LINKS ---------- */
+
+a {
+    color: #0000ee;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #ff0000;
+    background-color: #ffff00;
+}
+
+
+/* ---------- QUICK LINKS ---------- */
+
+section:last-child {
+    border: 2px solid #000000;
+
+    padding: 10px;
+
+    background-color: #ffffff;
+}
+
+section:last-child li {
+    list-style-type: square;
+}
+
+section:last-child a {
+    font-weight: bold;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #000080;
+    color: #ffffff;
+
+    padding: 8px 15px;
+
+    border-top: 3px solid #000000;
+
+    font-size: 12px;
+
+    text-align: center;
+}
+
+footer p {
+    margin: 3px 0;
+}
+
+
+/* =========================================
+   TABLE STYLE
+   ========================================= */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background-color: #ffffff;
+
+    border: 3px solid #000000;
+}
+
+th {
+    background-color: #000080;
+    color: #ffffff;
+
+    border: 2px solid #000000;
+
+    padding: 6px;
+
+    text-align: left;
+}
+
+td {
+    border: 1px solid #000000;
+
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tr:hover {
+    background-color: #ffff00;
+}
+
+
+/* =========================================
+   OLD SCHOOL BUTTON
+   ========================================= */
+
+button {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+    font-weight: bold;
+
+    background-color: #c0c0c0;
+
+    color: #000000;
+
+    padding: 4px 10px;
+
+    border: 2px outset #ffffff;
+
+    cursor: pointer;
+}
+
+button:active {
+    border-style: inset;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 5px;
+        padding: 5px;
+
+        font-size: 13px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        display: block;
+
+        margin-bottom: 5px;
+        margin-right: 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
